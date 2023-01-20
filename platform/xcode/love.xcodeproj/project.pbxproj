@@ -443,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "OS X AppIcon";
 				CODE_SIGN_ENTITLEMENTS = love.entitlements;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -476,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "OS X AppIcon";
 				CODE_SIGN_ENTITLEMENTS = love.entitlements;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -669,7 +671,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6MM3A6ATUL;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -699,7 +701,7 @@
 				);
 				MARKETING_VERSION = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wymzee.woof;
 				PRODUCT_NAME = love;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -724,7 +726,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6MM3A6ATUL;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -749,7 +751,7 @@
 				);
 				MARKETING_VERSION = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wymzee.woof;
 				PRODUCT_NAME = love;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -775,7 +777,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6MM3A6ATUL;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -800,7 +802,7 @@
 				);
 				MARKETING_VERSION = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.love2d.love;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wymzee.woof;
 				PRODUCT_NAME = love;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -892,6 +894,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "OS X AppIcon";
 				CODE_SIGN_ENTITLEMENTS = love.entitlements;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
